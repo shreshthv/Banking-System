@@ -1,0 +1,48 @@
+[
+  {
+    "acc_no": 1001,
+    "name": "Shreshth Vishwakarma",
+    "balance": 8990.0,
+    "created_at": "2025-09-13T13:21:18.016598",
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 10000.0,
+        "timestamp": "2025-09-13T13:21:18.016598",
+        "note": "initial deposit"
+      },
+      {
+        "type": "withdrawal",
+        "amount": 10.0,
+        "timestamp": "2025-09-13T13:21:59.828907",
+        "note": ""
+      },
+      {
+        "type": "transfer_out",
+        "amount": 1000.0,
+        "timestamp": "2025-09-13T13:22:46.909290",
+        "note": "to 1002"
+      }
+    ]
+  },
+  {
+    "acc_no": 1002,
+    "name": "Gulabo",
+    "balance": 2000.0,
+    "created_at": "2025-09-13T13:22:29.900522",
+    "transactions": [
+      {
+        "type": "deposit",
+        "amount": 1000.0,
+        "timestamp": "2025-09-13T13:22:29.900522",
+        "note": "initial deposit"
+      },
+      {
+        "type": "transfer_in",
+        "amount": 1000.0,
+        "timestamp": "2025-09-13T13:22:46.909290",
+        "note": "from 1001"
+      }
+    ]
+  }
+]
